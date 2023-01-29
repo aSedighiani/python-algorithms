@@ -8,8 +8,3 @@ class Solution:
             if s in dict:
                 return [dict[s],i]
             dict[nums[i]] = i
-
-l = [3,3]
-s = Solution()
-t = 6
-print(s.twoSum(l,t))
