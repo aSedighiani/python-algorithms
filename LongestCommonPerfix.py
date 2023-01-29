@@ -12,7 +12,3 @@ class Solution:
                     return cmn
             cmn += ch
         return cmn
-
-l = ["flower","flo","floight"]
-s = Solution()
-print(s.longestCommonPrefix(l))
